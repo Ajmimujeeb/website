@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Home</title>
+    <link rel="stylesheet" href="/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+
+    <style>
+        .carousel-inner img {
+            height: 500px;
+            object-fit: cover;
+        }
+        .features {
+            margin-top: 30px;
+        }
+        .features img {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><span class="text-success">LIB</span>com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/home.html"><b>Home</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="books.html"><b>Books</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login.html"><b>Log In</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/signup.html"><b>Sign Up</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="/image1/pexels-readymade-3847626.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/image1/tyty.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/image1/library-7720589_1280.webp" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="container text-center features">
+        <h2 class="mt-4">Welcome to Our Library</h2>
+        <p>Explore a world of books at your fingertips.</p>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="/image1/All the New Books to Read This November, From Sci-Fi Novels to Memoirs.jpg" class="img-fluid" alt="Book 1">
+                <h5 class="mt-2">Harry Potter and the Prisoner of Azkaban</h5>
+            </div>
+            <div class="col-md-4">
+                <img src="/image1/57326e48a57021a2fac56523cfdfae4c.jpg" class="img-fluid" alt="Book 2">
+                <h5 class="mt-2">Twisted Love
+                    
+                    </h5>
+            </div>
+            <div class="col-md-4">
+                <img src="/image1/d7a69999d8d3d35b763326e7d2fbbcdf.jpg"class="img-fluid" alt="Book 3">
+                <h5 class="mt-2">The Kite Runner
+                    
+                    </h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- <footer class="bg-light text-center text-lg-start mt-5 p-4">
+        <div class="container">
+            <p>📚 LIBcom
+                123 Library Street, City, State, Zip Code
+                Phone: (123) 456-7890 | Email: contact@libraryname.com
+                
+                Hours of Operation:
+                Mon-Fri: 9:00 AM - 6:00 PM | Sat: 10:00 AM - 4:00 PM | Sun: Closed
+                
+                Follow Us:
+                [Facebook Icon] [Twitter Icon] [Instagram Icon] [LinkedIn Icon]
+                
+                Quick Links:
+                [Home] | [Catalog] | [Events] | [Support Us] | [Contact Us]
+                
+                © [Year] [Library Name]. All Rights Reserved. | Privacy Policy | Terms of Service
+                
+                </p>
+        </div>
+    </footer> -->
+    <footer class="bg-dark text-light pt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Library Information -->
+                <div class="col-md-4 mb-4">
+                    <h5>LIBcom</h5>
+                    <p>123 Library Street, City, State, 12345</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: contact@citylibrary.com</p>
+                </div>
+                <!-- Hours of Operation -->
+                <div class="col-md-4 mb-4">
+                    <h5>Hours of Operation</h5>
+                    <ul class="list-unstyled">
+                        <li>Mon-Fri: 9:00 AM - 6:00 PM</li>
+                        <li>Sat: 10:00 AM - 4:00 PM</li>
+                        <li>Sun: Closed</li>
+                    </ul>
+                </div>
+                <!-- Social Media Links -->
+                <div class="col-md-4 mb-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Quick Links -->
+                <div class="col-md-6 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled d-flex flex-wrap">
+                        <li><a href="#" class="text-light me-3">Home</a></li>
+                        <li><a href="#" class="text-light me-3">Catalog</a></li>
+                        <li><a href="#" class="text-light me-3">Events</a></li>
+                        <li><a href="#" class="text-light">Support Us</a></li>
+                    </ul>
+                </div>
+                <!-- Legal Information -->
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">&copy; 2024 City Library. All Rights Reserved. | 
+                        <a href="#" class="text-light">Privacy Policy</a> | 
+                        <a href="#" class="text-light">Terms of Service</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

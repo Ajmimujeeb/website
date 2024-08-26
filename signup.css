@@ -1,0 +1,12 @@
+body {
+    background-color: #f8f9fa;
+    background-image: url(/image1/plant-2004483_1920.jpg);
+    background-size: cover;
+}
+.signup-container {
+    margin-top: 50px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+}
